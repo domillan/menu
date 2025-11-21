@@ -10,6 +10,8 @@
             --card-guess: linear-gradient(45deg, #6200ea, #7c4dff);
             --card-taboo: linear-gradient(45deg, #d32f2f, #ef5350);
             --card-mimic: linear-gradient(45deg, #ff6f00, #ffca28);
+            /* Novo gradiente Verde/Teal para o Duelo */
+            --card-duel: linear-gradient(45deg, #00695c, #00e676); 
             --text-color: #ffffff;
         }
 
@@ -90,6 +92,7 @@
         .guess { background: var(--card-guess); }
         .taboo { background: var(--card-taboo); }
         .mimic { background: var(--card-mimic); }
+        .duel  { background: var(--card-duel); }
 
         .icon {
             font-size: 1.8rem;
@@ -122,7 +125,7 @@
         </header>
 
         <nav class="menu">
-            <a href="https://domillan.github.io/WordGuess/" class="game-link guess">
+            <a href="https://domillan.github.io/AdivinheGame/" class="game-link guess">
                 <span class="icon">🧩</span>
                 <span class="label">Adivinhe</span>
                 <span class="arrow">➔</span>
@@ -137,6 +140,12 @@
             <a href="https://domillan.github.io/MimicaExpress/" class="game-link mimic">
                 <span class="icon">🎭</span>
                 <span class="label">Mímica</span>
+                <span class="arrow">➔</span>
+            </a>
+
+            <a href="https://domillan.github.io/DueloGame/" class="game-link duel">
+                <span class="icon">⚔️</span>
+                <span class="label">Duelo</span>
                 <span class="arrow">➔</span>
             </a>
         </nav>
